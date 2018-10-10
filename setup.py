@@ -40,11 +40,6 @@ URL = "http://develop.aliyun.com/sdk/python"
 TOPDIR = os.path.dirname(__file__) or "."
 VERSION = __import__(PACKAGE).__version__
 
-desc_file = open("README.md")
-try:
-	LONG_DESCRIPTION = desc_file.read()
-finally:
-	desc_file.close()
 
 requires = []
 
